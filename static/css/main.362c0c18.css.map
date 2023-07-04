@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.362c0c18.css","mappings":"AACA,SAMI,8CAAkD,CAFlD,cAAe,CACf,eAAiB,CAHjB,YAAa,CADb,WAOD","sources":["App.css"],"sourcesContent":["\ntextarea {\n    width: 600px;\n    height: 200px;\n   \n    font-size: 12em;\n    font-weight: bold;\n    font-family: Verdana, Arial, Helvetica, sans-serif;\n   \n   }"],"names":[],"sourceRoot":""}
