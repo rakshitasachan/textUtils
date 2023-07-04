@@ -1,11 +1,11 @@
 
-import Abouts from './COMPONENTS/Abouts';
+
 import Navbar from './COMPONENTS/Navbar';
 import TextForm from './COMPONENTS/TextForm';
 import './App.css';
 import { useState } from 'react';
 import Alert from './COMPONENTS/Alert';
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+
 
 
 function App() {
@@ -53,15 +53,8 @@ setAlert(null);
 <Alert  alert={alert}/>
 
 <div className="container my-3">
+<TextForm showAlert={showAlert} heading="Enter the text to analyse below" mode={mode} />} />
 
-  <Router>
-  
-     <Routes>
-        <Route exact path="/Abouts" element={<Abouts />}/>
-        <Route path="/" element={<TextForm showAlert={showAlert} heading="Enter the text to analyse below" mode={mode} />} />
-
-     </Routes>
-  </Router>
 
   </div>
    </>
