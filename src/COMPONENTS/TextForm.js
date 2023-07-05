@@ -79,7 +79,7 @@ const Reverse = ()=>{
     </div>
     <div className='container my-3' style={{color: props.mode==='dark' ? 'white':'black'}}>
     <h1>Your Text Summary</h1>
-    <p>{text.split(" ").length} words and {text.length} charecter</p>
+    <p>{text.split(/\s+/).length} words and {text.length} charecter</p>
     <p>{0.008 * text.split(" ").length} Minutes read</p>
    <h2>Preview</h2>
    <p>{text.length>0?text:"enter text here"}</p>
